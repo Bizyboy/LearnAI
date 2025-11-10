@@ -1,0 +1,287 @@
+[
+  {
+    "id": "data-scientist",
+    "name": "Data Scientist",
+    "category": "Analytics and Modeling",
+    "description": "Data scientists extract insights from complex datasets and communicate their findings to help organizations make data‑driven decisions. Typical duties include building predictive models, developing data processing pipelines and performing statistical analyses. Successful data scientists have strong programming, statistics and machine‑learning skills and must communicate results clearly.",
+    "salaryRange": {
+      "entry": "$95k‑$115k",
+      "mid": "$115k‑$135k",
+      "senior": "$135k‑$150k+"
+    },
+    "growthRate": "The U.S. Bureau of Labor Statistics projects data scientist employment to grow roughly 33 % from 2024 to 2034, adding about 23,400 openings per year【464490326818331†L118-L173】.",
+    "skills": ["Python/R", "statistics", "machine learning", "data visualization", "communication"],
+    "recommendedCourses": ["cs50-ai", "ai-for-everyone", "andrew-ng-ml"],
+    "progression": {
+      "beginner": "Learn programming and statistics fundamentals through courses like CS50’s Introduction to AI and AI for Everyone.",
+      "intermediate": "Master machine learning algorithms and data manipulation using Andrew Ng’s Machine Learning and practical projects.",
+      "advanced": "Delve into deep learning and specialized topics such as reinforcement learning and generative AI to build complex models."
+    }
+  },
+  {
+    "id": "machine-learning-engineer",
+    "name": "Machine Learning Engineer",
+    "category": "Engineering and Development",
+    "description": "Machine learning engineers design, build and maintain systems that learn from data. They collect and preprocess data, engineer features, train and evaluate models, deploy them into production and monitor their performance. The role requires strong software engineering skills in addition to expertise in machine learning algorithms and frameworks.",
+    "salaryRange": {
+      "entry": "$100k‑$130k",
+      "mid": "$130k‑$160k",
+      "senior": "$160k‑$180k+"
+    },
+    "growthRate": "Jobs for AI/ML engineers are expected to grow about 30 % over the next few years【719739535747223†L118-L200】.",
+    "skills": ["Python", "TensorFlow/PyTorch", "software engineering", "data structures", "model deployment"],
+    "recommendedCourses": ["ai-for-everyone", "andrew-ng-ml", "mit-deep-learning", "stanford-cs224n"],
+    "progression": {
+      "beginner": "Gain a solid grounding in programming and linear algebra before taking introductory machine‑learning courses.",
+      "intermediate": "Study supervised and unsupervised learning techniques and implement models using popular frameworks.",
+      "advanced": "Specialize in deep learning, reinforcement learning and MLOps to design scalable, production‑ready systems."
+    }
+  },
+  {
+    "id": "deep-learning-engineer",
+    "name": "Deep Learning Engineer",
+    "category": "Engineering and Development",
+    "description": "Deep learning engineers develop and optimize neural networks for tasks such as computer vision, speech recognition and natural language processing. They research network architectures, implement training pipelines, experiment with hyper‑parameters and adapt models to new domains.",
+    "salaryRange": {
+      "entry": "$90k‑$110k",
+      "mid": "$110k‑$130k",
+      "senior": "$130k‑$150k+"
+    },
+    "growthRate": "The demand for deep learning skills has surged as organizations adopt AI for complex perception tasks, and salaries can reach over $140k depending on experience【818957935884299†L155-L163】.",
+    "skills": ["neural networks", "TensorFlow/PyTorch", "GPU programming", "optimization", "research"],
+    "recommendedCourses": ["andrew-ng-ml", "mit-deep-learning", "stanford-cs231n"],
+    "progression": {
+      "beginner": "Understand basic neural network concepts and activation functions through introductory deep‑learning resources.",
+      "intermediate": "Implement convolutional and recurrent networks for vision and language tasks using frameworks like PyTorch.",
+      "advanced": "Research and design novel architectures (e.g., transformers, diffusion models) and optimize training pipelines for large‑scale data."
+    }
+  },
+  {
+    "id": "nlp-engineer",
+    "name": "NLP Engineer",
+    "category": "Engineering and Development",
+    "description": "Natural language processing (NLP) engineers build systems that understand and generate human language. They design algorithms for text classification, machine translation and conversational agents, leveraging embeddings and large language models.",
+    "salaryRange": {
+      "entry": "$97k‑$115k",
+      "mid": "$115k‑$130k",
+      "senior": "$130k‑$150k+"
+    },
+    "growthRate": "NLP roles have grown rapidly thanks to chatbots and language models; U.S. base salaries typically range between $97k and $123k【511310334486382†L220-L223】.",
+    "skills": ["Python", "PyTorch", "transformers", "linguistics", "text processing"],
+    "recommendedCourses": ["ai-for-everyone", "stanford-cs224n"],
+    "progression": {
+      "beginner": "Start with programming and basic machine learning before exploring text processing techniques.",
+      "intermediate": "Study recurrent and transformer‑based models and implement NLP applications like sentiment analysis and translation.",
+      "advanced": "Work with large language models, fine‑tune pretrained models and research multilingual or low‑resource NLP."
+    }
+  },
+  {
+    "id": "computer-vision-engineer",
+    "name": "Computer Vision Engineer",
+    "category": "Engineering and Development",
+    "description": "Computer vision engineers develop algorithms that enable computers to interpret and understand visual information. They build and train convolutional neural networks, perform image and video analysis and deploy models for applications such as object detection and autonomous driving.",
+    "salaryRange": {
+      "entry": "$90k‑$110k",
+      "mid": "$110k‑$130k",
+      "senior": "$130k‑$170k"
+    },
+    "growthRate": "Average annual salary for computer vision engineers in the U.S. is around $122k, with ranges from about $80k to $170k【818957935884299†L101-L110】.",
+    "skills": ["Python", "OpenCV", "convolutional neural networks", "image processing", "C++"],
+    "recommendedCourses": ["mit-deep-learning", "stanford-cs231n"],
+    "progression": {
+      "beginner": "Learn the basics of image processing and linear algebra.",
+      "intermediate": "Implement CNNs for classification and detection tasks; practice using vision libraries.",
+      "advanced": "Optimize and deploy models for real‑time applications and explore research topics like 3‑D vision and generative models."
+    }
+  },
+  {
+    "id": "reinforcement-learning-specialist",
+    "name": "Reinforcement Learning Specialist",
+    "category": "Research and Algorithms",
+    "description": "Reinforcement learning specialists design agents that learn to make sequential decisions by interacting with an environment. They develop algorithms that balance exploration and exploitation, optimize long‑term rewards and often combine deep learning with RL.",
+    "salaryRange": {
+      "entry": "$90k‑$120k",
+      "mid": "$120k‑$140k",
+      "senior": "$140k‑$160k+"
+    },
+    "growthRate": "As RL applications in robotics and games expand, demand for specialists continues to climb, with salaries overlapping those of research scientists【11003869164035†L10-L23】.",
+    "skills": ["reinforcement learning", "Markov decision processes", "Python", "simulation environments", "probability"],
+    "recommendedCourses": ["stanford-cs234"],
+    "progression": {
+      "beginner": "Grasp probability and dynamic programming concepts.",
+      "intermediate": "Learn model‑free and model‑based RL algorithms; implement simple agents.",
+      "advanced": "Combine deep learning with RL, design novel algorithms and explore multi‑agent or hierarchical RL."
+    }
+  },
+  {
+    "id": "ai-research-scientist",
+    "name": "AI Research Scientist",
+    "category": "Research and Algorithms",
+    "description": "AI research scientists push the boundaries of artificial intelligence by developing new algorithms, publishing papers and leading research projects. They collaborate with engineers to build prototypes, extract meaning from complex datasets and advance the state of the art【70739328416875†L200-L244】.",
+    "salaryRange": {
+      "entry": "$90k‑$120k",
+      "mid": "$120k‑$150k",
+      "senior": "$150k‑$170k+"
+    },
+    "growthRate": "Computer and information research scientist jobs are projected to grow about 23 % through 2032【70739328416875†L200-L244】.",
+    "skills": ["research methods", "math and statistics", "deep learning", "publishing papers", "collaboration"],
+    "recommendedCourses": ["mit-deep-learning", "stanford-cs231n", "stanford-cs224n", "simplilearn-generative-ai"],
+    "progression": {
+      "beginner": "Develop a strong foundation in mathematics, algorithms and machine learning.",
+      "intermediate": "Participate in research projects, study state‑of‑the‑art models and begin publishing results.",
+      "advanced": "Lead research teams, design novel architectures and contribute to academic conferences and journals."
+    }
+  },
+  {
+    "id": "data-analyst",
+    "name": "Data Analyst",
+    "category": "Analytics and Modeling",
+    "description": "Data analysts design and maintain data systems, mine and clean data, perform statistical analyses, and prepare reports to support decision making. They collaborate with programmers and management to ensure data accuracy and efficiency【126476194084126†L146-L156】.",
+    "salaryRange": {
+      "entry": "$70k‑$90k",
+      "mid": "$90k‑$120k",
+      "senior": "$120k‑$137k+"
+    },
+    "growthRate": "Employment of data analysts is projected to grow about 23 % between 2021 and 2031【126476194084126†L207-L223】.",
+    "skills": ["SQL", "Excel", "statistics", "data visualization", "communication"],
+    "recommendedCourses": ["cs50-ai", "ai-for-everyone"],
+    "progression": {
+      "beginner": "Build proficiency in spreadsheets, SQL and data visualization.",
+      "intermediate": "Learn statistical modeling and Python or R for data analysis.",
+      "advanced": "Develop predictive analytics and contribute to business intelligence and forecasting initiatives."
+    }
+  },
+  {
+    "id": "data-engineer",
+    "name": "Data Engineer",
+    "category": "Engineering and Development",
+    "description": "Data engineers build scalable data pipelines, manage databases and optimize big‑data infrastructure. They design ETL processes, ensure data quality and governance and deploy cloud‑based solutions【475512061693430†L101-L115】.",
+    "salaryRange": {
+      "entry": "$85k‑$105k",
+      "mid": "$110k‑$135k",
+      "senior": "$140k‑$175k"
+    },
+    "growthRate": "Rapid growth in big data has created strong demand for data engineers; salaries range from $85k to $175k depending on experience【475512061693430†L117-L155】.",
+    "skills": ["SQL", "Python/Java", "ETL", "cloud computing", "data governance"],
+    "recommendedCourses": ["ai-for-everyone", "andrew-ng-ml"],
+    "progression": {
+      "beginner": "Learn SQL and scripting languages and understand data storage concepts.",
+      "intermediate": "Design and implement data pipelines and work with distributed systems like Hadoop and Spark.",
+      "advanced": "Architect big‑data solutions, optimize performance and ensure security and compliance in cloud environments."
+    }
+  },
+  {
+    "id": "ai-product-manager",
+    "name": "AI Product Manager",
+    "category": "Product and Strategy",
+    "description": "AI product managers oversee the development and lifecycle of AI‑enabled products. They conduct market research, define product requirements, collaborate with data scientists and engineers, set KPIs, manage roadmaps and engage stakeholders【587418633518938†L256-L300】.",
+    "salaryRange": {
+      "entry": "$85k‑$110k",
+      "mid": "$110k‑$150k",
+      "senior": "$150k‑$200k+"
+    },
+    "growthRate": "As organizations adopt AI products, demand for AI product managers is growing rapidly【587418633518938†L256-L300】.",
+    "skills": ["product management", "market research", "communication", "AI fundamentals", "project management"],
+    "recommendedCourses": ["cs50-ai", "ai-for-everyone", "simplilearn-generative-ai"],
+    "progression": {
+      "beginner": "Learn product management basics and understand AI capabilities and limitations.",
+      "intermediate": "Collaborate with technical teams, define requirements and set metrics for success.",
+      "advanced": "Lead multiple AI product lines, align strategy with business goals and mentor junior product managers."
+    }
+  },
+  {
+    "id": "ai-architect",
+    "name": "AI Architect",
+    "category": "Architecture and Strategy",
+    "description": "AI architects design and oversee the architecture of AI systems. They plan AI strategies, select technologies, design system components, ensure interoperability and compliance, lead teams and communicate with stakeholders【94349210331286†L154-L195】.",
+    "salaryRange": {
+      "entry": "$120k‑$140k",
+      "mid": "$140k‑$160k",
+      "senior": "$160k‑$170k+"
+    },
+    "growthRate": "Because organizations need scalable AI solutions, the role of AI architect is in high demand【94349210331286†L154-L195】.",
+    "skills": ["system design", "cloud computing", "data engineering", "AI frameworks", "leadership"],
+    "recommendedCourses": ["ai-for-everyone", "andrew-ng-ml", "mit-deep-learning", "simplilearn-generative-ai"],
+    "progression": {
+      "beginner": "Gain experience with software architecture and basic machine‑learning concepts.",
+      "intermediate": "Design and integrate AI components into larger systems and learn about cloud infrastructure.",
+      "advanced": "Lead architecture for enterprise‑scale AI solutions, ensuring compliance, security and ethical considerations."
+    }
+  },
+  {
+    "id": "ai-security-specialist",
+    "name": "AI Security Specialist",
+    "category": "Security and Compliance",
+    "description": "AI security specialists defend AI systems against adversarial attacks, data poisoning and model theft. They apply threat modeling, secure data pipelines and monitor AI systems for vulnerabilities【303545726504803†L92-L103】.",
+    "salaryRange": {
+      "entry": "$100k‑$120k",
+      "mid": "$120k‑$140k",
+      "senior": "$140k‑$160k+"
+    },
+    "growthRate": "Demand for AI and cybersecurity expertise is projected to grow more than 35 % by 2030【303545726504803†L92-L103】.",
+    "skills": ["machine learning", "cybersecurity", "threat modeling", "cryptography", "secure coding"],
+    "recommendedCourses": ["stanford-cs234"],
+    "progression": {
+      "beginner": "Understand basic cybersecurity concepts and machine learning fundamentals.",
+      "intermediate": "Learn about adversarial machine learning, secure data pipelines and threat detection.",
+      "advanced": "Develop robust defenses against sophisticated attacks, contribute to security research and implement governance frameworks."
+    }
+  },
+  {
+    "id": "ai-ethicist",
+    "name": "AI Ethicist",
+    "category": "Ethics and Governance",
+    "description": "AI ethicists ensure that AI systems are developed and used responsibly. They create ethical guidelines, conduct risk assessments, review AI projects for fairness and bias, ensure compliance with regulations, collaborate across teams and educate stakeholders about responsible AI practices【484280746227489†L164-L251】.",
+    "salaryRange": {
+      "entry": "$95k‑$110k",
+      "mid": "$110k‑$125k",
+      "senior": "$125k‑$135k+"
+    },
+    "growthRate": "With growing regulatory and societal focus on responsible AI, demand for AI ethicists is increasing【484280746227489†L164-L251】.",
+    "skills": ["ethics", "policy", "AI fundamentals", "risk assessment", "communication"],
+    "recommendedCourses": ["simplilearn-generative-ai", "ethics-of-ai"],
+    "progression": {
+      "beginner": "Learn AI basics and ethical principles.",
+      "intermediate": "Conduct ethics reviews and develop guidelines for AI projects.",
+      "advanced": "Lead organization‑wide ethics programs, influence policy and drive culture change toward responsible AI."
+    }
+  },
+  {
+    "id": "robotics-engineer",
+    "name": "Robotics Engineer",
+    "category": "Engineering and Development",
+    "description": "Robotics engineers design, build and program robots to automate tasks. They create prototypes, test and debug hardware and software, analyze sensor data, report on risks and progress and research new uses of robots【83696164841263†L34-L48】【83696164841263†L190-L199】.",
+    "salaryRange": {
+      "entry": "$80k‑$100k",
+      "mid": "$100k‑$120k",
+      "senior": "$120k‑$140k+"
+    },
+    "growthRate": "Growing adoption of automation in manufacturing, healthcare and logistics is driving demand for robotics engineers【83696164841263†L34-L48】.",
+    "skills": ["mechanical engineering", "control systems", "embedded programming", "computer vision", "mathematics"],
+    "recommendedCourses": ["mit-deep-learning"],
+    "progression": {
+      "beginner": "Acquire fundamentals of mechanical and electrical engineering and programming.",
+      "intermediate": "Build and program simple robots and integrate sensors.",
+      "advanced": "Design complex autonomous systems and specialize in fields like medical robotics or industrial automation."
+    }
+  },
+  {
+    "id": "ai-engineer",
+    "name": "AI Engineer",
+    "category": "Engineering and Development",
+    "description": "AI engineers build and integrate AI models by collaborating with business and development teams. They collect and process data, perform feature engineering, develop and deploy models, integrate them into products and monitor performance. Entry‑level AI engineers at leading companies can earn high salaries and the job market is expanding rapidly【719739535747223†L118-L200】【719739535747223†L253-L263】.",
+    "salaryRange": {
+      "entry": "$100k‑$130k",
+      "mid": "$130k‑$160k",
+      "senior": "$160k‑$200k+"
+    },
+    "growthRate": "Employment of AI engineers is projected to grow roughly 30 % by 2027【719739535747223†L118-L200】.",
+    "skills": ["Python", "data processing", "feature engineering", "model deployment", "collaboration"],
+    "recommendedCourses": ["cs50-ai", "ai-for-everyone", "andrew-ng-ml", "mit-deep-learning"],
+    "progression": {
+      "beginner": "Build programming and data‑preprocessing skills and understand basic AI concepts.",
+      "intermediate": "Develop, train and evaluate models using frameworks like PyTorch and TensorFlow.",
+      "advanced": "Optimize and deploy models in production, collaborate across teams and mentor juniors."
+    }
+  }
+]

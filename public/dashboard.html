@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Learning Hub – Dashboard</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <nav>
+    <div>
+      <strong>AI Learning Hub</strong>
+    </div>
+    <div>
+      <a href="/index.html">Courses</a>
+      <a href="/careers.html">Career Paths</a>
+      <a href="/dashboard.html">Dashboard</a>
+      <a href="/chat.html">Chat</a>
+    </div>
+  </nav>
+  <div class="container">
+    <h2>Your Dashboard</h2>
+    <div class="dashboard">
+      <!-- Progress Tracker -->
+      <div class="progress-section">
+        <h3>Progress Tracker</h3>
+        <p id="progressSummary">Loading progress...</p>
+        <div class="progress-bar"><span id="progressBar" style="width: 0%"></span></div>
+      </div>
+
+      <!-- Badges Section -->
+      <div class="badges-section">
+        <h3>Your Badges</h3>
+        <div id="badgesContainer" class="badges"></div>
+      </div>
+
+      <!-- Resume Builder Section -->
+      <div class="resume-section">
+        <h3>Automated Resume Builder</h3>
+        <label for="careerSelect">Select desired career path:</label>
+        <select id="careerSelect"></select>
+        <button id="generateResumeBtn" class="btn primary" style="margin-top: 0.5rem;">Generate Resume</button>
+        <div id="resumeOutput" style="margin-top: 1rem; white-space: pre-wrap; border: 1px solid #cbd5e1; padding: 0.5rem; border-radius: 4px; background-color: #f9fafb; display: none;"></div>
+      </div>
+
+      <!-- AI Mentor Copilot Section -->
+      <div class="mentor-section">
+        <h3>AI Mentor Copilot</h3>
+        <div class="mentor-chat">
+          <div id="chatMessages" class="chat-messages"></div>
+          <input type="text" id="chatInput" placeholder="Ask the AI mentor..." />
+          <button id="sendChatBtn">Send</button>
+        </div>
+      </div>
+
+      <!-- Interactive Learning Roadmap -->
+      <div class="roadmap-section">
+        <h3>Interactive Learning Roadmap</h3>
+        <p>Select an area of interest to see a recommended path:</p>
+        <select id="pathSelect"></select>
+        <div id="roadmapDisplay" style="margin-top: 1rem;"></div>
+      </div>
+    </div>
+  </div>
+  <script src="/js/dashboard.js"></script>
+</body>
+</html>

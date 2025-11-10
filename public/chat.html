@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Learning Hub – Chat Mentor</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    /* Page specific styles */
+    .chat-page {
+      display: flex;
+      gap: 1rem;
+    }
+    .thread-list {
+      width: 25%;
+      background-color: #e0e7ff;
+      border-radius: 8px;
+      padding: 0.5rem;
+      height: calc(100vh - 120px);
+      overflow-y: auto;
+    }
+    .thread-list ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .thread-list li {
+      padding: 0.5rem;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .thread-list li.active {
+      background-color: #c7d2fe;
+    }
+    .thread-list li:hover {
+      background-color: #d8e0ff;
+    }
+    .thread-chat {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      height: calc(100vh - 120px);
+    }
+    .thread-chat .chat-messages {
+      flex-grow: 1;
+      overflow-y: auto;
+      padding: 0.5rem;
+      border: 1px solid #cbd5e1;
+      border-radius: 8px;
+      margin-bottom: 0.5rem;
+      background-color: #ffffff;
+    }
+    .thread-chat input[type="text"] {
+      width: 100%;
+      padding: 0.5rem;
+      border: 1px solid #cbd5e1;
+      border-radius: 4px;
+    }
+    .thread-chat button {
+      margin-top: 0.5rem;
+      padding: 0.4rem 0.8rem;
+      border: none;
+      border-radius: 4px;
+      background-color: #2563eb;
+      color: #fff;
+      cursor: pointer;
+    }
+    .thread-chat button:hover { opacity: 0.9; }
+  </style>
+</head>
+<body>
+  <nav>
+    <div><strong>AI Learning Hub</strong></div>
+    <div>
+      <a href="/index.html">Courses</a>
+      <a href="/careers.html">Career Paths</a>
+      <a href="/dashboard.html">Dashboard</a>
+      <a href="/chat.html">Chat</a>
+    </div>
+  </nav>
+  <div class="container">
+    <h2>Chat Mentor – Career Threads</h2>
+    <div class="chat-page">
+      <div class="thread-list">
+        <ul id="threadList"></ul>
+      </div>
+      <div class="thread-chat">
+        <div id="threadMessages" class="chat-messages"></div>
+        <input type="text" id="threadInput" placeholder="Ask a question..." />
+        <button id="threadSendBtn">Send</button>
+      </div>
+    </div>
+  </div>
+  <script src="/js/chat.js"></script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+[
+  {
+    "id": "cs50-ai",
+    "name": "CS50's Introduction to AI with Python",
+    "provider": "Harvard/edX",
+    "category": "AI Fundamentals",
+    "level": "Intermediate",
+    "duration": "7 weeks (10–30 hours per week)",
+    "link": "https://pll.harvard.edu/course/cs50s-introduction-artificial-intelligence-python",
+    "description": "This intermediate‑level course teaches the foundational principles of artificial intelligence.  Over seven weeks, learners explore graph‑search algorithms, reinforcement learning, machine learning and other core AI techniques while building projects with Python.  The course is free to audit and requires about 10–30 hours of study per week【724305789307122†L36-L98】.",
+    "relatedCareerPaths": ["AI Research Scientist", "Machine Learning Engineer", "Data Scientist", "AI Architect"]
+  },
+  {
+    "id": "ai-for-everyone",
+    "name": "AI for Everyone",
+    "provider": "DeepLearning.AI/Coursera",
+    "category": "Career Development",
+    "level": "Beginner",
+    "duration": "~6 hours (self‑paced)",
+    "link": "https://www.deeplearning.ai/short-courses/ai-for-everyone/",
+    "description": "A non‑technical introduction to artificial intelligence.  Andrew Ng explains what AI can and cannot do, how to build AI projects and develop an AI strategy, and how AI affects society and organizations【936592483445434†L32-L69】.  The course is suitable for business and technical audiences and takes about six hours to complete【936592483445434†L88-L126】.",
+    "relatedCareerPaths": ["AI Product Manager", "AI Ethics Officer", "Data Analyst"]
+  },
+  {
+    "id": "andrew-ng-ml",
+    "name": "Machine Learning by Andrew Ng",
+    "provider": "Coursera",
+    "category": "Machine Learning",
+    "level": "Beginner",
+    "duration": "11 weeks (3–4 hours per week)",
+    "link": "https://www.coursera.org/learn/machine-learning",
+    "description": "One of the most popular introductions to machine learning.  Andrew Ng covers supervised and unsupervised learning, including linear regression, logistic regression, neural networks and clustering.  The course is designed for beginners, is free to audit and takes about 11 weeks to finish【406652967313239†L59-L66】.",
+    "relatedCareerPaths": ["Machine Learning Engineer", "Data Scientist", "AI Engineer"]
+  },
+  {
+    "id": "mit-deep-learning",
+    "name": "MIT 6.S191: Introduction to Deep Learning",
+    "provider": "MIT",
+    "category": "Deep Learning",
+    "level": "Intermediate",
+    "duration": "1‑week bootcamp (January 6–10, 2025)",
+    "link": "https://introtodeeplearning.com/",
+    "description": "A high‑intensity bootcamp that quickly builds foundational and advanced deep‑learning knowledge.  Lectures and labs cover neural networks, convolutional networks, NLP, reinforcement learning and biology‑inspired models.  The 2025 bootcamp runs from January 6–10 with lectures each afternoon【261097469188029†L24-L43】.",
+    "relatedCareerPaths": ["Deep Learning Engineer", "Computer Vision Engineer", "NLP Engineer", "AI Research Scientist"]
+  },
+  {
+    "id": "stanford-cs231n",
+    "name": "CS231n: Convolutional Neural Networks for Visual Recognition",
+    "provider": "Stanford University",
+    "category": "Computer Vision",
+    "level": "Intermediate",
+    "duration": "10 weeks",
+    "link": "http://cs231n.stanford.edu/",
+    "description": "An in‑depth course on convolutional neural networks for image classification and visual recognition.  Students learn to implement and debug deep neural networks, study modern architectures and train a network for image recognition as the final project【71501931328453†L26-L41】.",
+    "relatedCareerPaths": ["Computer Vision Engineer", "Data Scientist", "AI Research Scientist"]
+  },
+  {
+    "id": "stanford-cs224n",
+    "name": "CS224n: Natural Language Processing with Deep Learning",
+    "provider": "Stanford University",
+    "category": "Natural Language Processing",
+    "level": "Intermediate",
+    "duration": "10 weeks",
+    "link": "http://web.stanford.edu/class/cs224n/",
+    "description": "This course provides a deep introduction to modern NLP using deep learning.  Students design and implement neural language models with PyTorch, explore transformers and large language models, and learn to evaluate NLP systems【192151276608067†L83-L125】.  Prerequisites include Python programming, calculus, linear algebra and probability【192151276608067†L154-L179】.",
+    "relatedCareerPaths": ["NLP Engineer", "AI Research Scientist", "AI Product Manager"]
+  },
+  {
+    "id": "stanford-cs234",
+    "name": "CS234: Reinforcement Learning",
+    "provider": "Stanford University",
+    "category": "Reinforcement Learning",
+    "level": "Intermediate",
+    "duration": "10 weeks",
+    "link": "http://web.stanford.edu/class/cs234/",
+    "description": "A comprehensive introduction to reinforcement learning that covers the core challenges of the field and modern solution methods.  The course combines lectures with written and coding assignments to teach students deep RL techniques and best practices【11003869164035†L10-L23】.",
+    "relatedCareerPaths": ["Reinforcement Learning Engineer", "Machine Learning Engineer", "AI Research Scientist"]
+  },
+  {
+    "id": "simplilearn-generative-ai",
+    "name": "Introduction to Generative AI",
+    "provider": "Simplilearn/Google Cloud",
+    "category": "Generative AI",
+    "level": "Beginner",
+    "duration": "1 hour",
+    "link": "https://www.simplilearn.com/learn-generative-ai-basics-course",
+    "description": "This free course introduces the concepts of generative AI and its practical applications.  It uses the Google Cloud ecosystem and the PaLM API to teach how generative models create text, images and other content.  The course is self‑paced, requires no technical background and provides a certificate upon completion【695652134972297†L15-L22】【695652134972297†L36-L38】.",
+    "relatedCareerPaths": ["Generative AI Engineer", "Machine Learning Engineer", "AI Product Manager"]
+  },
+  {
+    "id": "ethics-of-ai",
+    "name": "Ethics of AI",
+    "provider": "University of Helsinki",
+    "category": "Ethics",
+    "level": "Beginner",
+    "duration": "Self‑paced",
+    "link": "https://www.elementsofai.com/ethics",
+    "description": "A free online course that helps learners understand why artificial intelligence raises ethical concerns and how to develop AI systems responsibly.  Chapters cover non‑maleficence, accountability, transparency, human rights and fairness, encouraging students to apply ethical principles through practical exercises【404088786974763†L9-L36】.",
+    "relatedCareerPaths": ["AI Ethics Officer", "AI Product Manager", "AI Research Scientist"]
+  }
+]
