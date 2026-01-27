@@ -96,7 +96,7 @@
     "duration": "Self‑paced",
     "link": "https://www.elementsofai.com/ethics",
     "description": "A free online course that helps learners understand why artificial intelligence raises ethical concerns and how to develop AI systems responsibly.  Chapters cover non‑maleficence, accountability, transparency, human rights and fairness, encouraging students to apply ethical principles through practical exercises【404088786974763†L9-L36】.",
-    "relatedCareerPaths": ["AI Ethics Officer", "AI Product Manager", "AI Research Scientist"]
+    "relatedCareerPaths": ["AI Ethicist", "AI Product Manager", "AI Research Scientist"]
   },
   {
     "id": "comprehensive-ai-ethics",
@@ -107,6 +107,6 @@
     "duration": "8 weeks (5-7 hours per week)",
     "link": "https://ai-learning-hub.example.com/courses/ai-ethics-governance",
     "description": "An in-depth course on ethical AI development, deployment, and governance. This comprehensive curriculum covers bias and fairness in machine learning, privacy and data protection, algorithmic transparency and explainability, accountability frameworks, AI safety and alignment, societal impacts of automation, environmental ethics of AI systems, and regulatory compliance (GDPR, AI Act). Students engage with real-world case studies, develop ethical frameworks for AI projects, and learn to implement responsible AI practices. The course combines theoretical foundations with practical tools for ethical decision-making in AI development.",
-    "relatedCareerPaths": ["AI Ethics Officer", "AI Product Manager", "AI Research Scientist", "AI Policy Advisor", "AI Compliance Specialist"]
+    "relatedCareerPaths": ["AI Ethicist", "AI Product Manager", "AI Research Scientist", "AI Architect"]
   }
 ]
