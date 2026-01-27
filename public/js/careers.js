@@ -1,6 +1,7 @@
 // Client‑side script for career paths page
 document.addEventListener('DOMContentLoaded', () => {
   const careerList = document.getElementById('careerList');
+  const dailyJobContent = document.getElementById('dailyJobContent');
   let coursesMap = {};
 
   // Load courses to map id -> name for recommended courses display
@@ -10,8 +11,117 @@ document.addEventListener('DOMContentLoaded', () => {
       courses.forEach((c) => {
         coursesMap[c.id] = c.name;
       });
+      loadDailyJobTitle();
       loadCareerPaths();
     });
+
+  function loadDailyJobTitle() {
+    fetch('/api/dailyJobTitle')
+      .then((res) => res.json())
+      .then((job) => {
+        renderDailyJobTitle(job);
+      })
+      .catch((err) => {
+        console.error('Error loading daily job title:', err);
+      });
+  }
+
+  function renderDailyJobTitle(job) {
+    dailyJobContent.innerHTML = '';
+    
+    const card = document.createElement('div');
+    card.classList.add('daily-job-card');
+
+    const title = document.createElement('h3');
+    title.textContent = job.name;
+    card.appendChild(title);
+
+    const category = document.createElement('p');
+    const categoryStrong = document.createElement('strong');
+    categoryStrong.textContent = 'Category: ';
+    category.appendChild(categoryStrong);
+    category.appendChild(document.createTextNode(job.category));
+    card.appendChild(category);
+
+    const desc = document.createElement('p');
+    desc.textContent = job.description;
+    card.appendChild(desc);
+
+    // Learning Curriculum
+    const curriculumTitle = document.createElement('h4');
+    curriculumTitle.textContent = 'Learning Curriculum';
+    card.appendChild(curriculumTitle);
+
+    const levels = ['fundamentals', 'novice', 'advanced', 'mastery'];
+    levels.forEach((levelKey) => {
+      const levelData = job.curriculum[levelKey];
+      
+      const levelSection = document.createElement('div');
+      levelSection.classList.add('curriculum-level');
+
+      const levelTitle = document.createElement('h5');
+      levelTitle.textContent = `📚 ${levelData.level}`;
+      levelSection.appendChild(levelTitle);
+
+      const levelDesc = document.createElement('p');
+      const em = document.createElement('em');
+      em.textContent = levelData.description;
+      levelDesc.appendChild(em);
+      levelSection.appendChild(levelDesc);
+
+      // Topics
+      if (levelData.topics && levelData.topics.length > 0) {
+        const topicsTitle = document.createElement('p');
+        topicsTitle.innerHTML = '<strong>Topics:</strong>';
+        levelSection.appendChild(topicsTitle);
+        const topicsUl = document.createElement('ul');
+        levelData.topics.forEach((topic) => {
+          const li = document.createElement('li');
+          li.textContent = topic;
+          topicsUl.appendChild(li);
+        });
+        levelSection.appendChild(topicsUl);
+      }
+
+      // Certifications
+      if (levelData.certifications && levelData.certifications.length > 0) {
+        const certsTitle = document.createElement('p');
+        certsTitle.innerHTML = '<strong>Recommended Certifications:</strong>';
+        levelSection.appendChild(certsTitle);
+        const certsUl = document.createElement('ul');
+        levelData.certifications.forEach((cert) => {
+          const li = document.createElement('li');
+          li.textContent = cert;
+          certsUl.appendChild(li);
+        });
+        levelSection.appendChild(certsUl);
+      }
+
+      // Timeframe
+      if (levelData.timeframe) {
+        const timeframe = document.createElement('p');
+        const timeframeStrong = document.createElement('strong');
+        timeframeStrong.textContent = 'Expected Timeframe: ';
+        timeframe.appendChild(timeframeStrong);
+        timeframe.appendChild(document.createTextNode(levelData.timeframe));
+        levelSection.appendChild(timeframe);
+      }
+
+      // Experience (for mastery level)
+      if (levelData.experience) {
+        const experience = document.createElement('p');
+        const experienceStrong = document.createElement('strong');
+        experienceStrong.textContent = 'Experience Required: ';
+        experience.appendChild(experienceStrong);
+        experience.appendChild(document.createTextNode(levelData.experience));
+        levelSection.appendChild(experience);
+      }
+
+      card.appendChild(levelSection);
+    });
+
+    dailyJobContent.appendChild(card);
+  }
 
   function loadCareerPaths() {
     fetch('/api/careerPaths')

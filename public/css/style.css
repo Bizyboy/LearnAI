@@ -133,6 +133,74 @@ nav a:hover {
 }
 
 /* Career paths */
+.daily-job-section {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.daily-job-section h3 {
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.daily-job-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.daily-job-card h3 {
+  margin-top: 0;
+  color: #667eea;
+  font-size: 1.8rem;
+}
+
+.daily-job-card h4 {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  color: #4c51bf;
+  font-size: 1.3rem;
+  border-bottom: 2px solid #e0e7ff;
+  padding-bottom: 0.5rem;
+}
+
+.daily-job-card h5 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  color: #5b21b6;
+  font-size: 1.1rem;
+}
+
+.curriculum-level {
+  background-color: #f9fafb;
+  border-left: 4px solid #667eea;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+}
+
+.curriculum-level em {
+  color: #6b7280;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.curriculum-level ul {
+  margin-top: 0.5rem;
+  padding-left: 1.5rem;
+}
+
+.curriculum-level li {
+  margin-bottom: 0.3rem;
+  color: #374151;
+}
+
 .career-list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));

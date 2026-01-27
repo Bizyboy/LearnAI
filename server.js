@@ -35,6 +35,26 @@ const server = http.createServer((req, res) => {
     });
     return;
   }
+  if (pathname === '/api/dailyJobTitle') {
+    const filePath = path.join(__dirname, 'data', 'dailyJobTitles.json');
+    fs.readFile(filePath, 'utf8', (err, data) => {
+      if (err) {
+        res.writeHead(500, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify({ error: 'Failed to load daily job titles' }));
+        return;
+      }
+      const jobTitles = JSON.parse(data);
+      // Use current date to deterministically select a job title (rotates daily)
+      const today = new Date();
+      const startOfYear = new Date(today.getFullYear(), 0, 1);
+      const dayOfYear = Math.floor((today - startOfYear) / 86400000);
+      const selectedIndex = dayOfYear % jobTitles.length;
+      const dailyJob = jobTitles[selectedIndex];
+      res.writeHead(200, { 'Content-Type': 'application/json' });
+      res.end(JSON.stringify(dailyJob));
+    });
+    return;
+  }
 
   // Static file serving
   let filePath = path.join(__dirname, 'public', pathname === '/' ? 'index.html' : pathname);

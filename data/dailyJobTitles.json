@@ -1,0 +1,563 @@
+[
+  {
+    "id": "devops-engineer",
+    "name": "DevOps Engineer",
+    "category": "Engineering and Operations",
+    "description": "DevOps engineers bridge the gap between development and operations teams, automating infrastructure, managing CI/CD pipelines, and ensuring reliable deployment of applications. They work with cloud platforms, containerization, and infrastructure as code to improve software delivery efficiency.",
+    "curriculum": {
+      "fundamentals": {
+        "level": "Fundamentals / Certificate",
+        "description": "Build foundational skills in Linux, networking, and scripting",
+        "topics": [
+          "Linux fundamentals and command line proficiency",
+          "Basic networking concepts (TCP/IP, DNS, HTTP)",
+          "Version control with Git",
+          "Scripting basics (Bash, Python)",
+          "Introduction to cloud computing concepts"
+        ],
+        "certifications": [
+          "CompTIA Linux+",
+          "AWS Certified Cloud Practitioner",
+          "Linux Foundation Certified System Administrator (LFCS)"
+        ],
+        "timeframe": "3-6 months"
+      },
+      "novice": {
+        "level": "Novice",
+        "description": "Learn core DevOps tools and practices",
+        "topics": [
+          "CI/CD pipeline setup with Jenkins or GitLab CI",
+          "Containerization with Docker",
+          "Configuration management with Ansible or Chef",
+          "Cloud platform basics (AWS, Azure, or GCP)",
+          "Monitoring and logging with tools like Prometheus and ELK stack",
+          "Basic infrastructure as code with Terraform"
+        ],
+        "certifications": [
+          "AWS Certified Solutions Architect - Associate",
+          "Docker Certified Associate",
+          "HashiCorp Terraform Associate"
+        ],
+        "timeframe": "6-12 months"
+      },
+      "advanced": {
+        "level": "Advanced",
+        "description": "Master complex systems and orchestration",
+        "topics": [
+          "Kubernetes orchestration and deployment strategies",
+          "Advanced cloud architecture and multi-cloud strategies",
+          "Security best practices and DevSecOps",
+          "Performance optimization and cost management",
+          "Advanced monitoring, alerting and incident response",
+          "GitOps workflows and advanced automation"
+        ],
+        "certifications": [
+          "Certified Kubernetes Administrator (CKA)",
+          "AWS Certified DevOps Engineer - Professional",
+          "Certified Jenkins Engineer"
+        ],
+        "timeframe": "12-18 months"
+      },
+      "mastery": {
+        "level": "Mastery / Commitment",
+        "description": "Lead DevOps transformation and architect enterprise solutions",
+        "topics": [
+          "Design and implement organization-wide DevOps strategies",
+          "Build and lead DevOps teams",
+          "Architect highly available, fault-tolerant systems at scale",
+          "Contribute to open-source DevOps tools",
+          "Implement chaos engineering and advanced testing strategies",
+          "Drive cultural transformation and DevOps best practices"
+        ],
+        "certifications": [
+          "Certified Kubernetes Security Specialist (CKS)",
+          "AWS Certified Solutions Architect - Professional",
+          "Google Cloud Professional DevOps Engineer"
+        ],
+        "experience": "3-5+ years in DevOps roles",
+        "timeframe": "Ongoing professional development"
+      }
+    }
+  },
+  {
+    "id": "blockchain-developer",
+    "name": "Blockchain Developer",
+    "category": "Emerging Technologies",
+    "description": "Blockchain developers create decentralized applications (dApps) and smart contracts on blockchain platforms. They design distributed ledger solutions, implement consensus mechanisms, and ensure security and scalability of blockchain networks.",
+    "curriculum": {
+      "fundamentals": {
+        "level": "Fundamentals / Certificate",
+        "description": "Understand blockchain basics and cryptography",
+        "topics": [
+          "Blockchain fundamentals and distributed ledger technology",
+          "Cryptographic concepts (hashing, digital signatures, public/private keys)",
+          "Programming fundamentals (JavaScript, Python, or Solidity)",
+          "Basic understanding of Bitcoin and Ethereum",
+          "Data structures and algorithms"
+        ],
+        "certifications": [
+          "Certified Blockchain Developer - Ethereum (CBDE)",
+          "IBM Blockchain Foundation Developer",
+          "Blockchain Council Certified Blockchain Developer"
+        ],
+        "timeframe": "3-6 months"
+      },
+      "novice": {
+        "level": "Novice",
+        "description": "Build smart contracts and simple dApps",
+        "topics": [
+          "Smart contract development with Solidity",
+          "Web3.js and Ethereum development",
+          "Testing smart contracts with Truffle or Hardhat",
+          "Deploying contracts to testnets",
+          "Basic DeFi concepts and token standards (ERC-20, ERC-721)",
+          "Introduction to blockchain security"
+        ],
+        "certifications": [
+          "Certified Ethereum Developer",
+          "ConsenSys Blockchain Developer Bootcamp",
+          "Hyperledger Fabric Administrator"
+        ],
+        "timeframe": "6-12 months"
+      },
+      "advanced": {
+        "level": "Advanced",
+        "description": "Create complex DeFi protocols and optimize performance",
+        "topics": [
+          "Advanced smart contract patterns and gas optimization",
+          "Layer 2 solutions and scaling strategies",
+          "Cross-chain interoperability",
+          "Advanced DeFi protocols (lending, DEXs, yield farming)",
+          "Security auditing and vulnerability assessment",
+          "NFT marketplace and gaming implementations"
+        ],
+        "certifications": [
+          "Certified Blockchain Security Professional",
+          "Advanced Solidity Development Certification",
+          "Chainlink Developer Expert"
+        ],
+        "timeframe": "12-18 months"
+      },
+      "mastery": {
+        "level": "Mastery / Commitment",
+        "description": "Architect blockchain solutions and lead protocol development",
+        "topics": [
+          "Design custom blockchain protocols and consensus mechanisms",
+          "Lead blockchain architecture for enterprise solutions",
+          "Contribute to core blockchain protocol development",
+          "Research and implement zero-knowledge proofs",
+          "Mentor teams and conduct security audits",
+          "Shape blockchain standards and best practices"
+        ],
+        "certifications": [
+          "Certified Blockchain Architect",
+          "Advanced Hyperledger Fabric Certification",
+          "Smart Contract Security Auditor Certification"
+        ],
+        "experience": "3-5+ years in blockchain development",
+        "timeframe": "Ongoing professional development"
+      }
+    }
+  },
+  {
+    "id": "cloud-solutions-architect",
+    "name": "Cloud Solutions Architect",
+    "category": "Architecture and Infrastructure",
+    "description": "Cloud solutions architects design and oversee cloud computing strategies for organizations. They evaluate business needs, design scalable cloud architectures, manage migrations, and ensure security, compliance, and cost optimization across cloud platforms.",
+    "curriculum": {
+      "fundamentals": {
+        "level": "Fundamentals / Certificate",
+        "description": "Learn cloud computing basics and core services",
+        "topics": [
+          "Cloud computing concepts and service models (IaaS, PaaS, SaaS)",
+          "Introduction to major cloud providers (AWS, Azure, GCP)",
+          "Virtualization and containerization basics",
+          "Networking fundamentals for cloud",
+          "Cloud security and compliance basics"
+        ],
+        "certifications": [
+          "AWS Certified Cloud Practitioner",
+          "Microsoft Azure Fundamentals (AZ-900)",
+          "Google Cloud Digital Leader"
+        ],
+        "timeframe": "3-6 months"
+      },
+      "novice": {
+        "level": "Novice",
+        "description": "Design and deploy cloud solutions",
+        "topics": [
+          "Cloud architecture patterns and best practices",
+          "Compute, storage, and database services",
+          "Networking and content delivery in the cloud",
+          "Identity and access management",
+          "Basic cloud migration strategies",
+          "Infrastructure as code fundamentals"
+        ],
+        "certifications": [
+          "AWS Certified Solutions Architect - Associate",
+          "Microsoft Azure Administrator (AZ-104)",
+          "Google Cloud Associate Cloud Engineer"
+        ],
+        "timeframe": "6-12 months"
+      },
+      "advanced": {
+        "level": "Advanced",
+        "description": "Master complex architectures and multi-cloud strategies",
+        "topics": [
+          "High availability and disaster recovery design",
+          "Multi-cloud and hybrid cloud architectures",
+          "Advanced security and compliance frameworks",
+          "Cost optimization and FinOps practices",
+          "Serverless architectures and microservices",
+          "Performance tuning and scalability planning"
+        ],
+        "certifications": [
+          "AWS Certified Solutions Architect - Professional",
+          "Microsoft Azure Solutions Architect Expert (AZ-305)",
+          "Google Cloud Professional Cloud Architect"
+        ],
+        "timeframe": "12-18 months"
+      },
+      "mastery": {
+        "level": "Mastery / Commitment",
+        "description": "Lead cloud transformation and enterprise architecture",
+        "topics": [
+          "Enterprise-wide cloud strategy and governance",
+          "Lead complex cloud migrations and modernizations",
+          "Architect for global scale and resilience",
+          "Cloud native application design patterns",
+          "Mentor teams and establish architecture standards",
+          "Contribute to cloud architecture thought leadership"
+        ],
+        "certifications": [
+          "AWS Certified Advanced Networking - Specialty",
+          "Microsoft Azure Enterprise Architect",
+          "TOGAF or Zachman Framework Certification"
+        ],
+        "experience": "5+ years in cloud architecture",
+        "timeframe": "Ongoing professional development"
+      }
+    }
+  },
+  {
+    "id": "cybersecurity-analyst",
+    "name": "Cybersecurity Analyst",
+    "category": "Security and Compliance",
+    "description": "Cybersecurity analysts protect organizations from cyber threats by monitoring networks, analyzing security incidents, implementing security measures, and responding to breaches. They stay updated on emerging threats and work to strengthen an organization's security posture.",
+    "curriculum": {
+      "fundamentals": {
+        "level": "Fundamentals / Certificate",
+        "description": "Build security fundamentals and threat awareness",
+        "topics": [
+          "Cybersecurity fundamentals and threat landscape",
+          "Network security basics (firewalls, IDS/IPS)",
+          "Operating system security (Windows, Linux)",
+          "Basic cryptography and encryption",
+          "Security policies and compliance basics"
+        ],
+        "certifications": [
+          "CompTIA Security+",
+          "Certified in Cybersecurity (CC) by ISC2",
+          "GIAC Security Essentials (GSEC)"
+        ],
+        "timeframe": "3-6 months"
+      },
+      "novice": {
+        "level": "Novice",
+        "description": "Develop threat detection and incident response skills",
+        "topics": [
+          "Security Information and Event Management (SIEM) tools",
+          "Vulnerability assessment and penetration testing basics",
+          "Incident response procedures",
+          "Network traffic analysis and packet inspection",
+          "Security monitoring and log analysis",
+          "Common attack vectors and mitigation strategies"
+        ],
+        "certifications": [
+          "Certified Ethical Hacker (CEH)",
+          "CompTIA CySA+ (Cybersecurity Analyst)",
+          "GIAC Certified Incident Handler (GCIH)"
+        ],
+        "timeframe": "6-12 months"
+      },
+      "advanced": {
+        "level": "Advanced",
+        "description": "Master advanced threats and security operations",
+        "topics": [
+          "Advanced persistent threat (APT) detection",
+          "Malware analysis and reverse engineering",
+          "Security automation and orchestration (SOAR)",
+          "Threat intelligence and hunting",
+          "Cloud security and container security",
+          "Advanced forensics and investigation techniques"
+        ],
+        "certifications": [
+          "Offensive Security Certified Professional (OSCP)",
+          "GIAC Certified Forensic Analyst (GCFA)",
+          "Certified Information Systems Security Professional (CISSP)"
+        ],
+        "timeframe": "12-18 months"
+      },
+      "mastery": {
+        "level": "Mastery / Commitment",
+        "description": "Lead security operations and strategy",
+        "topics": [
+          "Design and implement security architecture",
+          "Build and lead security operations centers (SOC)",
+          "Develop security strategy and risk management frameworks",
+          "Advanced threat modeling and security research",
+          "Mentor security teams and conduct training",
+          "Contribute to security standards and best practices"
+        ],
+        "certifications": [
+          "GIAC Security Expert (GSE)",
+          "Certified Information Security Manager (CISM)",
+          "Offensive Security Certified Expert (OSCE)"
+        ],
+        "experience": "5+ years in cybersecurity",
+        "timeframe": "Ongoing professional development"
+      }
+    }
+  },
+  {
+    "id": "full-stack-developer",
+    "name": "Full Stack Developer",
+    "category": "Software Development",
+    "description": "Full stack developers build complete web applications, working on both frontend user interfaces and backend server logic. They handle databases, APIs, user authentication, and deployment, bringing products from concept to production.",
+    "curriculum": {
+      "fundamentals": {
+        "level": "Fundamentals / Certificate",
+        "description": "Master web development basics",
+        "topics": [
+          "HTML, CSS, and responsive design",
+          "JavaScript fundamentals and ES6+",
+          "Basic programming concepts and algorithms",
+          "Version control with Git and GitHub",
+          "Command line basics and development tools"
+        ],
+        "certifications": [
+          "freeCodeCamp Responsive Web Design",
+          "freeCodeCamp JavaScript Algorithms and Data Structures",
+          "Meta Front-End Developer Certificate"
+        ],
+        "timeframe": "3-6 months"
+      },
+      "novice": {
+        "level": "Novice",
+        "description": "Build full stack applications with modern frameworks",
+        "topics": [
+          "Frontend frameworks (React, Vue, or Angular)",
+          "Backend development with Node.js/Express or Python/Django",
+          "RESTful API design and implementation",
+          "Database design and SQL",
+          "Authentication and authorization",
+          "Basic deployment and hosting"
+        ],
+        "certifications": [
+          "freeCodeCamp Full Stack Developer",
+          "Meta Back-End Developer Certificate",
+          "AWS Certified Developer - Associate"
+        ],
+        "timeframe": "6-12 months"
+      },
+      "advanced": {
+        "level": "Advanced",
+        "description": "Master advanced patterns and scalable architectures",
+        "topics": [
+          "Advanced state management (Redux, Vuex, NgRx)",
+          "Microservices architecture",
+          "GraphQL and advanced API patterns",
+          "Performance optimization and caching strategies",
+          "Testing strategies (unit, integration, E2E)",
+          "CI/CD pipelines and DevOps practices",
+          "NoSQL databases and data modeling"
+        ],
+        "certifications": [
+          "AWS Certified Solutions Architect - Associate",
+          "Google Professional Cloud Developer",
+          "Certified Kubernetes Application Developer (CKAD)"
+        ],
+        "timeframe": "12-18 months"
+      },
+      "mastery": {
+        "level": "Mastery / Commitment",
+        "description": "Architect complex systems and lead development teams",
+        "topics": [
+          "System design and architecture at scale",
+          "Lead technical teams and mentor developers",
+          "Design patterns and architectural best practices",
+          "Performance monitoring and optimization at scale",
+          "Security best practices and threat modeling",
+          "Contribute to open-source projects and technical leadership"
+        ],
+        "certifications": [
+          "AWS Certified Solutions Architect - Professional",
+          "Professional Scrum Developer",
+          "System Design and Architecture Certifications"
+        ],
+        "experience": "4-6+ years in full stack development",
+        "timeframe": "Ongoing professional development"
+      }
+    }
+  },
+  {
+    "id": "data-privacy-officer",
+    "name": "Data Privacy Officer",
+    "category": "Compliance and Governance",
+    "description": "Data privacy officers ensure organizations comply with data protection regulations like GDPR and CCPA. They develop privacy policies, conduct audits, manage data breaches, and serve as the point of contact for regulatory authorities and data subjects.",
+    "curriculum": {
+      "fundamentals": {
+        "level": "Fundamentals / Certificate",
+        "description": "Understand privacy laws and data protection principles",
+        "topics": [
+          "Data protection fundamentals and privacy principles",
+          "Overview of major regulations (GDPR, CCPA, HIPAA)",
+          "Data lifecycle and information governance",
+          "Basic legal concepts and compliance",
+          "Privacy by design principles"
+        ],
+        "certifications": [
+          "Certified Information Privacy Professional (CIPP/US or CIPP/E)",
+          "IAPP Privacy Foundations Certification",
+          "GDPR Foundation Certification"
+        ],
+        "timeframe": "3-6 months"
+      },
+      "novice": {
+        "level": "Novice",
+        "description": "Implement privacy programs and conduct assessments",
+        "topics": [
+          "Privacy impact assessments (PIAs)",
+          "Data mapping and inventory management",
+          "Consent management and user rights",
+          "Vendor risk management",
+          "Privacy policy development",
+          "Breach notification procedures"
+        ],
+        "certifications": [
+          "Certified Information Privacy Manager (CIPM)",
+          "Certified Data Privacy Solutions Engineer (CDPSE)",
+          "ISO 27701 Lead Implementer"
+        ],
+        "timeframe": "6-12 months"
+      },
+      "advanced": {
+        "level": "Advanced",
+        "description": "Manage complex privacy programs and cross-border compliance",
+        "topics": [
+          "International data transfers and adequacy",
+          "Privacy technology and privacy-enhancing technologies",
+          "Advanced risk assessment and mitigation",
+          "Privacy in emerging technologies (AI, IoT, blockchain)",
+          "Regulatory compliance audits and enforcement",
+          "Privacy metrics and reporting"
+        ],
+        "certifications": [
+          "Certified Information Privacy Technologist (CIPT)",
+          "Fellow of Information Privacy (FIP)",
+          "ISO 27701 Lead Auditor"
+        ],
+        "timeframe": "12-18 months"
+      },
+      "mastery": {
+        "level": "Mastery / Commitment",
+        "description": "Lead enterprise privacy strategy and regulatory relations",
+        "topics": [
+          "Design enterprise-wide privacy governance frameworks",
+          "Lead privacy transformation initiatives",
+          "Engage with regulators and industry bodies",
+          "Develop privacy culture and training programs",
+          "Thought leadership and speaking at conferences",
+          "Shape privacy policy and industry standards"
+        ],
+        "certifications": [
+          "Fellow of Information Privacy (FIP)",
+          "CIPP/E and CIPM dual certification",
+          "ISO 27001 Lead Auditor"
+        ],
+        "experience": "5+ years in privacy and compliance",
+        "timeframe": "Ongoing professional development"
+      }
+    }
+  },
+  {
+    "id": "iot-solutions-architect",
+    "name": "IoT Solutions Architect",
+    "category": "Emerging Technologies",
+    "description": "IoT solutions architects design and implement Internet of Things systems that connect physical devices to collect, analyze, and act on data. They work with sensors, edge computing, cloud platforms, and analytics to create smart, connected solutions for industries like manufacturing, healthcare, and smart cities.",
+    "curriculum": {
+      "fundamentals": {
+        "level": "Fundamentals / Certificate",
+        "description": "Learn IoT basics and embedded systems",
+        "topics": [
+          "IoT fundamentals and architecture",
+          "Embedded systems and microcontrollers (Arduino, Raspberry Pi)",
+          "Basic electronics and sensors",
+          "Communication protocols (MQTT, HTTP, CoAP)",
+          "Programming basics (Python, C/C++)"
+        ],
+        "certifications": [
+          "AWS Certified IoT Specialty (Foundation Level)",
+          "Cisco IoT Fundamentals",
+          "IoT Solutions World Congress Certificate"
+        ],
+        "timeframe": "3-6 months"
+      },
+      "novice": {
+        "level": "Novice",
+        "description": "Build IoT devices and connect to cloud platforms",
+        "topics": [
+          "IoT device development and firmware",
+          "Cloud IoT platforms (AWS IoT, Azure IoT, Google Cloud IoT)",
+          "Data ingestion and streaming",
+          "Device management and over-the-air updates",
+          "Basic data analytics and visualization",
+          "IoT security fundamentals"
+        ],
+        "certifications": [
+          "AWS Certified IoT Specialty",
+          "Microsoft Azure IoT Developer (AZ-220)",
+          "Certified IoT Practitioner"
+        ],
+        "timeframe": "6-12 months"
+      },
+      "advanced": {
+        "level": "Advanced",
+        "description": "Design scalable IoT systems with edge computing",
+        "topics": [
+          "Edge computing and edge AI",
+          "IoT data analytics and machine learning",
+          "Advanced IoT security and device authentication",
+          "Industrial IoT (IIoT) and OT integration",
+          "Time-series databases and real-time processing",
+          "IoT system integration and interoperability"
+        ],
+        "certifications": [
+          "Certified IoT Security Practitioner",
+          "AWS Certified Solutions Architect - Professional (IoT focus)",
+          "Industrial IoT Specialist Certification"
+        ],
+        "timeframe": "12-18 months"
+      },
+      "mastery": {
+        "level": "Mastery / Commitment",
+        "description": "Architect enterprise IoT ecosystems and drive innovation",
+        "topics": [
+          "Design large-scale IoT deployments",
+          "Lead IoT digital transformation initiatives",
+          "Develop IoT strategy and roadmaps",
+          "Advanced edge AI and predictive maintenance",
+          "IoT standards development and interoperability",
+          "Mentor teams and establish IoT best practices"
+        ],
+        "certifications": [
+          "Certified IoT Architect",
+          "Enterprise IoT Solutions Architect",
+          "Advanced Edge Computing Certification"
+        ],
+        "experience": "5+ years in IoT development and architecture",
+        "timeframe": "Ongoing professional development"
+      }
+    }
+  }
+]
