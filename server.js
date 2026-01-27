@@ -46,7 +46,8 @@ const server = http.createServer((req, res) => {
       const jobTitles = JSON.parse(data);
       // Use current date to deterministically select a job title (rotates daily)
       const today = new Date();
-      const dayOfYear = Math.floor((today - new Date(today.getFullYear(), 0, 0)) / 86400000);
+      const startOfYear = new Date(today.getFullYear(), 0, 1);
+      const dayOfYear = Math.floor((today - startOfYear) / 86400000);
       const selectedIndex = dayOfYear % jobTitles.length;
       const dailyJob = jobTitles[selectedIndex];
       res.writeHead(200, { 'Content-Type': 'application/json' });

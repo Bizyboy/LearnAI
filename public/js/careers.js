@@ -37,7 +37,10 @@ document.addEventListener('DOMContentLoaded', () => {
     card.appendChild(title);
 
     const category = document.createElement('p');
-    category.innerHTML = `<strong>Category:</strong> ${job.category}`;
+    const categoryStrong = document.createElement('strong');
+    categoryStrong.textContent = 'Category: ';
+    category.appendChild(categoryStrong);
+    category.appendChild(document.createTextNode(job.category));
     card.appendChild(category);
 
     const desc = document.createElement('p');
@@ -61,7 +64,9 @@ document.addEventListener('DOMContentLoaded', () => {
       levelSection.appendChild(levelTitle);
 
       const levelDesc = document.createElement('p');
-      levelDesc.innerHTML = `<em>${levelData.description}</em>`;
+      const em = document.createElement('em');
+      em.textContent = levelData.description;
+      levelDesc.appendChild(em);
       levelSection.appendChild(levelDesc);
 
       // Topics
@@ -95,14 +100,20 @@ document.addEventListener('DOMContentLoaded', () => {
       // Timeframe
       if (levelData.timeframe) {
         const timeframe = document.createElement('p');
-        timeframe.innerHTML = `<strong>Expected Timeframe:</strong> ${levelData.timeframe}`;
+        const timeframeStrong = document.createElement('strong');
+        timeframeStrong.textContent = 'Expected Timeframe: ';
+        timeframe.appendChild(timeframeStrong);
+        timeframe.appendChild(document.createTextNode(levelData.timeframe));
         levelSection.appendChild(timeframe);
       }
 
       // Experience (for mastery level)
       if (levelData.experience) {
         const experience = document.createElement('p');
-        experience.innerHTML = `<strong>Experience Required:</strong> ${levelData.experience}`;
+        const experienceStrong = document.createElement('strong');
+        experienceStrong.textContent = 'Experience Required: ';
+        experience.appendChild(experienceStrong);
+        experience.appendChild(document.createTextNode(levelData.experience));
         levelSection.appendChild(experience);
       }
 
