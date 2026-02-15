@@ -1,0 +1,827 @@
+[
+  {
+    "id": "ai-ethics-foundations",
+    "title": "Foundations of AI Ethics",
+    "category": "Ethics",
+    "duration": "3 hours",
+    "difficulty": "Beginner",
+    "format": "Interactive Workshop",
+    "maxParticipants": 30,
+    "description": "An introductory workshop exploring the fundamental ethical considerations in artificial intelligence development and deployment. Participants engage in hands-on activities to understand bias, fairness, and transparency in AI systems.",
+    "learningObjectives": [
+      "Understand core ethical principles applicable to AI systems",
+      "Identify potential sources of bias in AI development",
+      "Recognize the importance of transparency and explainability",
+      "Apply ethical frameworks to real-world AI scenarios"
+    ],
+    "modules": [
+      {
+        "id": "module-1",
+        "title": "Introduction to AI Ethics",
+        "duration": "45 minutes",
+        "activities": [
+          {
+            "type": "ice-breaker",
+            "title": "AI in Our Lives",
+            "duration": "15 minutes",
+            "description": "Participants share personal experiences with AI systems and discuss their ethical concerns",
+            "materials": ["Sticky notes", "Whiteboard"]
+          },
+          {
+            "type": "presentation",
+            "title": "Core Ethical Principles",
+            "duration": "20 minutes",
+            "description": "Introduction to key ethical frameworks: beneficence, non-maleficence, autonomy, justice, and explicability",
+            "materials": ["Slides", "Handouts"]
+          },
+          {
+            "type": "discussion",
+            "title": "Real-World Ethics Cases",
+            "duration": "10 minutes",
+            "description": "Group discussion on recent AI ethics controversies in the news",
+            "materials": ["Case study sheets"]
+          }
+        ]
+      },
+      {
+        "id": "module-2",
+        "title": "Bias and Fairness in AI",
+        "duration": "60 minutes",
+        "activities": [
+          {
+            "type": "interactive-demo",
+            "title": "Bias Detection Exercise",
+            "duration": "25 minutes",
+            "description": "Hands-on activity using a simulated dataset to identify and measure bias in machine learning models",
+            "materials": ["Laptops", "Pre-loaded dataset", "Jupyter notebooks"],
+            "tools": ["Python", "Fairness libraries (AIF360, Fairlearn)"]
+          },
+          {
+            "type": "group-activity",
+            "title": "Fairness Metrics Workshop",
+            "duration": "25 minutes",
+            "description": "Teams work to define fairness metrics for different AI application scenarios",
+            "materials": ["Scenario cards", "Worksheets"]
+          },
+          {
+            "type": "presentation",
+            "title": "Mitigation Strategies",
+            "duration": "10 minutes",
+            "description": "Overview of techniques to reduce bias in AI systems",
+            "materials": ["Slides"]
+          }
+        ]
+      },
+      {
+        "id": "module-3",
+        "title": "Transparency and Accountability",
+        "duration": "45 minutes",
+        "activities": [
+          {
+            "type": "case-study",
+            "title": "Black Box vs. Explainable AI",
+            "duration": "20 minutes",
+            "description": "Analysis of trade-offs between model performance and interpretability",
+            "materials": ["Case study documents", "Discussion guides"]
+          },
+          {
+            "type": "hands-on",
+            "title": "Explainability Tools",
+            "duration": "20 minutes",
+            "description": "Practical introduction to SHAP and LIME for model explanation",
+            "materials": ["Laptops", "Pre-trained models", "Jupyter notebooks"],
+            "tools": ["SHAP", "LIME"]
+          },
+          {
+            "type": "wrap-up",
+            "title": "Accountability Frameworks",
+            "duration": "5 minutes",
+            "description": "Brief overview of governance and accountability structures",
+            "materials": ["Summary handout"]
+          }
+        ]
+      },
+      {
+        "id": "module-4",
+        "title": "Action Planning",
+        "duration": "30 minutes",
+        "activities": [
+          {
+            "type": "reflection",
+            "title": "Personal Ethics Statement",
+            "duration": "15 minutes",
+            "description": "Participants draft their personal AI ethics principles",
+            "materials": ["Worksheets", "Pens"]
+          },
+          {
+            "type": "group-share",
+            "title": "Commitments and Next Steps",
+            "duration": "15 minutes",
+            "description": "Sharing of key takeaways and action commitments",
+            "materials": ["Flip charts"]
+          }
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Basic understanding of machine learning concepts",
+      "No programming experience required"
+    ],
+    "materials": [
+      "Laptops with pre-configured Python environment",
+      "Sticky notes and markers",
+      "Case study handouts",
+      "Worksheets and templates",
+      "Projection equipment"
+    ],
+    "facilitatorNotes": "This workshop works best with a mix of technical and non-technical participants. Ensure hands-on activities are accessible to those with limited coding experience by providing pre-written code templates."
+  },
+  {
+    "id": "human-ai-collaboration",
+    "title": "Effective Human-AI Collaboration",
+    "category": "Human-AI Interaction",
+    "duration": "4 hours",
+    "difficulty": "Intermediate",
+    "format": "Interactive Workshop",
+    "maxParticipants": 25,
+    "description": "A comprehensive workshop on designing and implementing effective human-AI collaborative systems. Participants explore interaction patterns, trust dynamics, and best practices for augmenting human capabilities with AI.",
+    "learningObjectives": [
+      "Understand different models of human-AI collaboration",
+      "Design AI systems that complement human strengths",
+      "Build trust and transparency in AI partnerships",
+      "Evaluate and improve human-AI team performance"
+    ],
+    "modules": [
+      {
+        "id": "module-1",
+        "title": "Models of Human-AI Collaboration",
+        "duration": "60 minutes",
+        "activities": [
+          {
+            "type": "presentation",
+            "title": "Collaboration Spectrum",
+            "duration": "20 minutes",
+            "description": "Overview of collaboration models from full automation to AI-assisted decision-making",
+            "materials": ["Slides", "Framework diagrams"]
+          },
+          {
+            "type": "interactive-exercise",
+            "title": "Mapping Collaboration Patterns",
+            "duration": "30 minutes",
+            "description": "Teams analyze real-world systems and map them to collaboration models",
+            "materials": ["Case cards", "Collaboration framework posters", "Markers"]
+          },
+          {
+            "type": "discussion",
+            "title": "When to Automate vs. Augment",
+            "duration": "10 minutes",
+            "description": "Group discussion on decision criteria for automation levels",
+            "materials": ["Discussion prompts"]
+          }
+        ]
+      },
+      {
+        "id": "module-2",
+        "title": "Designing for Human Strengths",
+        "duration": "60 minutes",
+        "activities": [
+          {
+            "type": "workshop",
+            "title": "Task Analysis Exercise",
+            "duration": "25 minutes",
+            "description": "Breaking down tasks to identify human vs. AI comparative advantages",
+            "materials": ["Task analysis templates", "Example scenarios"]
+          },
+          {
+            "type": "hands-on",
+            "title": "Interface Design Sprint",
+            "duration": "30 minutes",
+            "description": "Rapid prototyping of human-AI interfaces using design thinking principles",
+            "materials": ["Prototyping tools", "Templates", "Sticky notes"],
+            "tools": ["Figma or paper prototypes"]
+          },
+          {
+            "type": "gallery-walk",
+            "title": "Design Showcase",
+            "duration": "5 minutes",
+            "description": "Teams present and review each other's interface designs",
+            "materials": ["Presentation boards"]
+          }
+        ]
+      },
+      {
+        "id": "module-3",
+        "title": "Building Trust in AI Systems",
+        "duration": "60 minutes",
+        "activities": [
+          {
+            "type": "role-play",
+            "title": "Trust Scenarios",
+            "duration": "25 minutes",
+            "description": "Simulated scenarios exploring trust calibration, over-reliance, and appropriate skepticism",
+            "materials": ["Scenario scripts", "Role cards"]
+          },
+          {
+            "type": "presentation",
+            "title": "Trust Factors in AI",
+            "duration": "15 minutes",
+            "description": "Research-backed insights on transparency, reliability, and user control",
+            "materials": ["Slides", "Research summaries"]
+          },
+          {
+            "type": "hands-on",
+            "title": "Transparency Dashboard Design",
+            "duration": "20 minutes",
+            "description": "Creating transparency features that build appropriate trust",
+            "materials": ["Design templates", "Example dashboards"]
+          }
+        ]
+      },
+      {
+        "id": "module-4",
+        "title": "Evaluating Collaborative Performance",
+        "duration": "60 minutes",
+        "activities": [
+          {
+            "type": "interactive-demo",
+            "title": "Human-AI Team Metrics",
+            "duration": "20 minutes",
+            "description": "Demonstration of metrics beyond accuracy: user satisfaction, time savings, learning effects",
+            "materials": ["Data visualizations", "Metric frameworks"]
+          },
+          {
+            "type": "simulation",
+            "title": "Collaborative Task Simulation",
+            "duration": "30 minutes",
+            "description": "Participants work with AI tools on realistic tasks and measure outcomes",
+            "materials": ["Laptops", "Simulation software", "Performance trackers"],
+            "tools": ["Custom simulation platform or case-based exercises"]
+          },
+          {
+            "type": "reflection",
+            "title": "Lessons Learned",
+            "duration": "10 minutes",
+            "description": "Debriefing on collaboration experiences and improvement opportunities",
+            "materials": ["Reflection worksheets"]
+          }
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Basic familiarity with AI applications",
+      "Experience with product design or UX helpful but not required"
+    ],
+    "materials": [
+      "Laptops with design/prototyping tools",
+      "Simulation software or case materials",
+      "Whiteboard and markers",
+      "Design templates and frameworks",
+      "Sticky notes and chart paper"
+    ],
+    "facilitatorNotes": "The role-play and simulation activities are crucial for experiential learning. Ensure adequate time for debriefing to extract key insights. Mix teams to combine technical and domain expertise."
+  },
+  {
+    "id": "ai-governance-practice",
+    "title": "AI Governance in Practice",
+    "category": "Governance",
+    "duration": "3.5 hours",
+    "difficulty": "Intermediate",
+    "format": "Interactive Workshop",
+    "maxParticipants": 30,
+    "description": "A practical workshop on implementing AI governance frameworks within organizations. Participants work through real-world scenarios to establish policies, processes, and oversight mechanisms for responsible AI.",
+    "learningObjectives": [
+      "Understand key components of AI governance frameworks",
+      "Develop practical policies for AI development and deployment",
+      "Design review processes for AI systems",
+      "Create accountability structures for AI projects"
+    ],
+    "modules": [
+      {
+        "id": "module-1",
+        "title": "AI Governance Fundamentals",
+        "duration": "45 minutes",
+        "activities": [
+          {
+            "type": "presentation",
+            "title": "Governance Frameworks Overview",
+            "duration": "20 minutes",
+            "description": "Introduction to major AI governance frameworks: EU AI Act, NIST AI RMF, IEEE standards",
+            "materials": ["Slides", "Framework comparison chart"]
+          },
+          {
+            "type": "group-activity",
+            "title": "Stakeholder Mapping",
+            "duration": "20 minutes",
+            "description": "Identifying stakeholders and their governance concerns in AI projects",
+            "materials": ["Stakeholder templates", "Markers", "Large paper"]
+          },
+          {
+            "type": "discussion",
+            "title": "Governance Challenges",
+            "duration": "5 minutes",
+            "description": "Open discussion on common organizational challenges",
+            "materials": ["Discussion prompts"]
+          }
+        ]
+      },
+      {
+        "id": "module-2",
+        "title": "Policy Development Workshop",
+        "duration": "75 minutes",
+        "activities": [
+          {
+            "type": "case-study",
+            "title": "Policy Gap Analysis",
+            "duration": "20 minutes",
+            "description": "Analyzing an organization's existing policies for AI readiness",
+            "materials": ["Sample policies", "Analysis templates"]
+          },
+          {
+            "type": "group-work",
+            "title": "Policy Drafting Exercise",
+            "duration": "40 minutes",
+            "description": "Teams draft AI use policies for specific scenarios (hiring, lending, healthcare, etc.)",
+            "materials": ["Policy templates", "Scenario descriptions", "Best practice examples"]
+          },
+          {
+            "type": "peer-review",
+            "title": "Policy Review Session",
+            "duration": "15 minutes",
+            "description": "Teams exchange and critique each other's draft policies",
+            "materials": ["Review checklists"]
+          }
+        ]
+      },
+      {
+        "id": "module-3",
+        "title": "AI Review Processes",
+        "duration": "60 minutes",
+        "activities": [
+          {
+            "type": "presentation",
+            "title": "AI Impact Assessments",
+            "duration": "15 minutes",
+            "description": "Introduction to algorithmic impact assessments and risk evaluation",
+            "materials": ["Slides", "Assessment frameworks"]
+          },
+          {
+            "type": "hands-on",
+            "title": "Risk Assessment Exercise",
+            "duration": "30 minutes",
+            "description": "Conducting a simplified AI impact assessment for a realistic scenario",
+            "materials": ["Assessment templates", "Risk matrices", "Scenario details"],
+            "tools": ["Digital assessment forms or worksheets"]
+          },
+          {
+            "type": "discussion",
+            "title": "Review Board Simulation",
+            "duration": "15 minutes",
+            "description": "Role-playing an AI ethics review board meeting",
+            "materials": ["Role descriptions", "Project proposals"]
+          }
+        ]
+      },
+      {
+        "id": "module-4",
+        "title": "Implementation Planning",
+        "duration": "30 minutes",
+        "activities": [
+          {
+            "type": "workshop",
+            "title": "Governance Roadmap",
+            "duration": "20 minutes",
+            "description": "Creating an implementation plan for AI governance in participants' organizations",
+            "materials": ["Roadmap templates", "Timeline tools"]
+          },
+          {
+            "type": "sharing",
+            "title": "Commitments and Resources",
+            "duration": "10 minutes",
+            "description": "Group sharing of plans and resource recommendations",
+            "materials": ["Resource list handouts"]
+          }
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Understanding of basic AI concepts",
+      "Familiarity with organizational policy development helpful"
+    ],
+    "materials": [
+      "Policy templates and examples",
+      "Risk assessment frameworks",
+      "Case study materials",
+      "Laptops for document editing",
+      "Flip charts and markers"
+    ],
+    "facilitatorNotes": "Tailor scenarios to participants' industries when possible. The policy drafting exercise benefits from diverse team composition. Have legal/compliance expertise available for questions."
+  },
+  {
+    "id": "ai-social-impact",
+    "title": "AI and Social Impact: Navigating Challenges",
+    "category": "Social Impact",
+    "duration": "3 hours",
+    "difficulty": "Beginner to Intermediate",
+    "format": "Interactive Workshop",
+    "maxParticipants": 35,
+    "description": "An engaging workshop examining the broader societal implications of AI technology. Participants explore issues of equity, employment, privacy, and democratic participation through interactive discussions and scenario planning.",
+    "learningObjectives": [
+      "Analyze AI's impact on employment and economic equity",
+      "Understand privacy implications of AI systems",
+      "Explore AI's role in democratic processes and civic engagement",
+      "Develop strategies for equitable AI deployment"
+    ],
+    "modules": [
+      {
+        "id": "module-1",
+        "title": "AI and Economic Equity",
+        "duration": "60 minutes",
+        "activities": [
+          {
+            "type": "presentation",
+            "title": "AI, Automation, and Work",
+            "duration": "15 minutes",
+            "description": "Overview of AI's impact on employment, job transformation, and inequality",
+            "materials": ["Slides", "Data visualizations", "Research summaries"]
+          },
+          {
+            "type": "debate",
+            "title": "Future of Work Debate",
+            "duration": "25 minutes",
+            "description": "Structured debate on AI's role in job displacement vs. job creation",
+            "materials": ["Debate structure guide", "Position papers", "Timer"]
+          },
+          {
+            "type": "group-activity",
+            "title": "Inclusive AI Design",
+            "duration": "20 minutes",
+            "description": "Teams design AI applications that promote economic inclusion",
+            "materials": ["Design templates", "Example case studies"]
+          }
+        ]
+      },
+      {
+        "id": "module-2",
+        "title": "Privacy in the AI Age",
+        "duration": "50 minutes",
+        "activities": [
+          {
+            "type": "interactive-demo",
+            "title": "Data Collection Revelation",
+            "duration": "15 minutes",
+            "description": "Eye-opening demonstration of how much data AI systems collect and infer",
+            "materials": ["Demo app or video", "Privacy audit tools"]
+          },
+          {
+            "type": "workshop",
+            "title": "Privacy-Preserving Design",
+            "duration": "25 minutes",
+            "description": "Hands-on exploration of privacy-preserving techniques: differential privacy, federated learning",
+            "materials": ["Concept sheets", "Example implementations", "Worksheets"]
+          },
+          {
+            "type": "discussion",
+            "title": "Privacy vs. Utility Trade-offs",
+            "duration": "10 minutes",
+            "description": "Group discussion on balancing privacy protection with AI capabilities",
+            "materials": ["Discussion prompts", "Case examples"]
+          }
+        ]
+      },
+      {
+        "id": "module-3",
+        "title": "AI and Democratic Values",
+        "duration": "50 minutes",
+        "activities": [
+          {
+            "type": "case-study",
+            "title": "AI in Public Decision-Making",
+            "duration": "20 minutes",
+            "description": "Analysis of AI use in government services, criminal justice, and civic processes",
+            "materials": ["Case study documents", "Discussion guides"]
+          },
+          {
+            "type": "simulation",
+            "title": "Algorithmic Governance Simulation",
+            "duration": "25 minutes",
+            "description": "Participants role-play stakeholders in a public AI deployment decision",
+            "materials": ["Simulation scenario", "Role cards", "Decision frameworks"]
+          },
+          {
+            "type": "reflection",
+            "title": "Democratic AI Principles",
+            "duration": "5 minutes",
+            "description": "Synthesis of key principles for democratic AI governance",
+            "materials": ["Summary handout"]
+          }
+        ]
+      },
+      {
+        "id": "module-4",
+        "title": "Action and Advocacy",
+        "duration": "20 minutes",
+        "activities": [
+          {
+            "type": "group-work",
+            "title": "Stakeholder Action Plans",
+            "duration": "15 minutes",
+            "description": "Developing concrete actions for different stakeholder groups (developers, policymakers, citizens)",
+            "materials": ["Action planning templates", "Resource guides"]
+          },
+          {
+            "type": "wrap-up",
+            "title": "Commitments and Resources",
+            "duration": "5 minutes",
+            "description": "Sharing commitments and distributing advocacy resources",
+            "materials": ["Resource list", "Contact information for organizations"]
+          }
+        ]
+      }
+    ],
+    "prerequisites": [
+      "General awareness of AI technologies",
+      "No technical background required"
+    ],
+    "materials": [
+      "Presentation materials and data visualizations",
+      "Case study documents",
+      "Simulation materials and role cards",
+      "Action planning templates",
+      "Resource guides and reading lists"
+    ],
+    "facilitatorNotes": "This workshop benefits from diverse participant backgrounds. Encourage respectful dialogue during debates and discussions. Be prepared to moderate sensitive topics around employment and inequality."
+  },
+  {
+    "id": "responsible-ai-development",
+    "title": "Responsible AI Development Lifecycle",
+    "category": "Development Practices",
+    "duration": "4.5 hours",
+    "difficulty": "Advanced",
+    "format": "Interactive Workshop",
+    "maxParticipants": 20,
+    "description": "A hands-on technical workshop for AI practitioners on integrating ethical considerations throughout the AI development lifecycle. Participants work through the complete process from problem framing to deployment and monitoring.",
+    "learningObjectives": [
+      "Apply ethical frameworks at each stage of AI development",
+      "Implement fairness and bias testing in ML pipelines",
+      "Design monitoring systems for deployed AI",
+      "Create documentation for responsible AI systems"
+    ],
+    "modules": [
+      {
+        "id": "module-1",
+        "title": "Ethical Problem Framing",
+        "duration": "60 minutes",
+        "activities": [
+          {
+            "type": "presentation",
+            "title": "Beyond the Technical: Problem Framing",
+            "duration": "15 minutes",
+            "description": "How problem definition shapes ethical outcomes in AI projects",
+            "materials": ["Slides", "Framework documents"]
+          },
+          {
+            "type": "hands-on",
+            "title": "Stakeholder Impact Analysis",
+            "duration": "30 minutes",
+            "description": "Using structured templates to analyze stakeholder impacts for an AI project",
+            "materials": ["Analysis templates", "Example projects", "Laptops"]
+          },
+          {
+            "type": "group-activity",
+            "title": "Problem Reframing Exercise",
+            "duration": "15 minutes",
+            "description": "Teams reframe problematic AI project definitions to align with ethical principles",
+            "materials": ["Project scenarios", "Reframing guidelines"]
+          }
+        ]
+      },
+      {
+        "id": "module-2",
+        "title": "Responsible Data Practices",
+        "duration": "75 minutes",
+        "activities": [
+          {
+            "type": "presentation",
+            "title": "Data Ethics Principles",
+            "duration": "15 minutes",
+            "description": "Consent, minimization, quality, and representativeness in data collection",
+            "materials": ["Slides", "Best practices guide"]
+          },
+          {
+            "type": "hands-on",
+            "title": "Bias Audit in Datasets",
+            "duration": "40 minutes",
+            "description": "Using Python tools to detect and analyze bias in training datasets",
+            "materials": ["Laptops", "Sample datasets", "Jupyter notebooks"],
+            "tools": ["Python", "Pandas", "Aequitas", "Fairlearn"]
+          },
+          {
+            "type": "workshop",
+            "title": "Data Documentation",
+            "duration": "20 minutes",
+            "description": "Creating datasheets for datasets following best practices",
+            "materials": ["Datasheet templates", "Example datasheets"]
+          }
+        ]
+      },
+      {
+        "id": "module-3",
+        "title": "Fair Model Development",
+        "duration": "90 minutes",
+        "activities": [
+          {
+            "type": "presentation",
+            "title": "Fairness Metrics and Trade-offs",
+            "duration": "20 minutes",
+            "description": "Overview of fairness definitions and impossibility results",
+            "materials": ["Slides", "Metric comparison charts"]
+          },
+          {
+            "type": "hands-on",
+            "title": "Fairness-Aware Training",
+            "duration": "45 minutes",
+            "description": "Implementing bias mitigation techniques in model training",
+            "materials": ["Laptops", "Training code templates", "Datasets"],
+            "tools": ["Python", "Scikit-learn", "Fairlearn", "AIF360"]
+          },
+          {
+            "type": "hands-on",
+            "title": "Model Explainability",
+            "duration": "25 minutes",
+            "description": "Generating explanations for model predictions using SHAP and LIME",
+            "materials": ["Laptops", "Trained models", "Notebooks"],
+            "tools": ["SHAP", "LIME", "Python"]
+          }
+        ]
+      },
+      {
+        "id": "module-4",
+        "title": "Deployment and Monitoring",
+        "duration": "75 minutes",
+        "activities": [
+          {
+            "type": "presentation",
+            "title": "Responsible Deployment Practices",
+            "duration": "15 minutes",
+            "description": "Staged rollouts, human-in-the-loop systems, and monitoring strategies",
+            "materials": ["Slides", "Deployment checklist"]
+          },
+          {
+            "type": "hands-on",
+            "title": "Monitoring Dashboard Setup",
+            "duration": "35 minutes",
+            "description": "Building dashboards to track fairness metrics and model drift in production",
+            "materials": ["Laptops", "Monitoring tools", "Sample production data"],
+            "tools": ["Python", "Evidently AI", "MLflow"]
+          },
+          {
+            "type": "workshop",
+            "title": "Model Cards Creation",
+            "duration": "25 minutes",
+            "description": "Documenting models using the model cards framework",
+            "materials": ["Model card templates", "Example cards", "Documentation guides"]
+          }
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Strong Python programming skills",
+      "Experience with machine learning development",
+      "Familiarity with scikit-learn or similar ML libraries"
+    ],
+    "materials": [
+      "Laptops with Python environment (Jupyter, required libraries)",
+      "Sample datasets for exercises",
+      "Code templates and notebooks",
+      "Documentation templates",
+      "Access to cloud computing resources (optional but helpful)"
+    ],
+    "requiredLibraries": [
+      "pandas",
+      "numpy",
+      "scikit-learn",
+      "fairlearn",
+      "aif360",
+      "shap",
+      "lime",
+      "evidently",
+      "mlflow"
+    ],
+    "facilitatorNotes": "This is a technical workshop requiring hands-on coding. Ensure all participants have working Python environments before starting. Provide code solutions for those who struggle. Consider using cloud notebooks (Google Colab, Kaggle) to minimize setup issues."
+  },
+  {
+    "id": "cross-cultural-ai-ethics",
+    "title": "Cross-Cultural Perspectives on AI Ethics",
+    "category": "Global Ethics",
+    "duration": "3 hours",
+    "difficulty": "Intermediate",
+    "format": "Interactive Workshop",
+    "maxParticipants": 30,
+    "description": "An exploratory workshop examining how cultural contexts shape AI ethics. Participants engage with diverse ethical frameworks and learn to design AI systems that respect cultural differences and promote global justice.",
+    "learningObjectives": [
+      "Understand how cultural values influence AI ethics",
+      "Recognize Western bias in dominant AI ethics frameworks",
+      "Design culturally sensitive AI applications",
+      "Apply principles of global justice to AI development"
+    ],
+    "modules": [
+      {
+        "id": "module-1",
+        "title": "Cultural Foundations of AI Ethics",
+        "duration": "60 minutes",
+        "activities": [
+          {
+            "type": "presentation",
+            "title": "Ethics Across Cultures",
+            "duration": "20 minutes",
+            "description": "Comparing ethical frameworks: Western individualism, Ubuntu philosophy, Confucian ethics, Islamic principles",
+            "materials": ["Slides", "Framework comparison charts", "Reading excerpts"]
+          },
+          {
+            "type": "group-discussion",
+            "title": "Cultural Values Exercise",
+            "duration": "25 minutes",
+            "description": "Small groups discuss how cultural values shape AI ethics priorities (privacy, community, authority, etc.)",
+            "materials": ["Discussion prompts", "Cultural scenarios", "Facilitator guides"]
+          },
+          {
+            "type": "sharing",
+            "title": "Cross-Cultural Insights",
+            "duration": "15 minutes",
+            "description": "Groups share insights and identify common ground and differences",
+            "materials": ["Synthesis worksheets"]
+          }
+        ]
+      },
+      {
+        "id": "module-2",
+        "title": "Bias in Global AI Systems",
+        "duration": "60 minutes",
+        "activities": [
+          {
+            "type": "case-study",
+            "title": "Global AI Failures",
+            "duration": "25 minutes",
+            "description": "Analysis of AI systems that failed due to cultural insensitivity or bias",
+            "materials": ["Case study documents", "Discussion guides"]
+          },
+          {
+            "type": "interactive-demo",
+            "title": "Language and Cultural Bias",
+            "duration": "20 minutes",
+            "description": "Hands-on exploration of bias in NLP models across languages and cultures",
+            "materials": ["Laptops", "Pre-loaded models", "Test examples"],
+            "tools": ["Online NLP demos", "Translation tools"]
+          },
+          {
+            "type": "discussion",
+            "title": "Data Colonialism",
+            "duration": "15 minutes",
+            "description": "Critical discussion on data extraction and AI imperialism",
+            "materials": ["Reading materials", "Discussion prompts"]
+          }
+        ]
+      },
+      {
+        "id": "module-3",
+        "title": "Designing for Cultural Diversity",
+        "duration": "60 minutes",
+        "activities": [
+          {
+            "type": "presentation",
+            "title": "Inclusive Design Principles",
+            "duration": "15 minutes",
+            "description": "Best practices for culturally responsive AI development",
+            "materials": ["Slides", "Design framework documents"]
+          },
+          {
+            "type": "design-sprint",
+            "title": "Cultural Adaptation Challenge",
+            "duration": "35 minutes",
+            "description": "Teams redesign an AI application for specific cultural contexts",
+            "materials": ["Application briefs", "Cultural context cards", "Design templates"]
+          },
+          {
+            "type": "gallery-walk",
+            "title": "Design Review",
+            "duration": "10 minutes",
+            "description": "Teams present adaptations and provide peer feedback",
+            "materials": ["Presentation boards", "Feedback forms"]
+          }
+        ]
+      }
+    ],
+    "prerequisites": [
+      "Basic understanding of AI ethics concepts",
+      "Openness to diverse perspectives and respectful dialogue"
+    ],
+    "materials": [
+      "Cultural framework documents and readings",
+      "Case study materials",
+      "Design templates and tools",
+      "Laptops for demonstrations",
+      "Discussion guides"
+    ],
+    "facilitatorNotes": "Ensure facilitators have cultural competence and can navigate sensitive discussions. Include participants from diverse backgrounds when possible. Acknowledge power dynamics in the room and create safe space for all voices."
+  }
+]

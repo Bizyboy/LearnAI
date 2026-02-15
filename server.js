@@ -35,6 +35,19 @@ const server = http.createServer((req, res) => {
     });
     return;
   }
+  if (pathname === '/api/workshopsCurriculum') {
+    const filePath = path.join(__dirname, 'data', 'workshopsCurriculum.json');
+    fs.readFile(filePath, 'utf8', (err, data) => {
+      if (err) {
+        res.writeHead(500, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify({ error: 'Failed to load workshops curriculum' }));
+        return;
+      }
+      res.writeHead(200, { 'Content-Type': 'application/json' });
+      res.end(data);
+    });
+    return;
+  }
   if (pathname === '/api/dailyJobTitle') {
     const filePath = path.join(__dirname, 'data', 'dailyJobTitles.json');
     fs.readFile(filePath, 'utf8', (err, data) => {
